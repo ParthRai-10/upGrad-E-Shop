@@ -1,0 +1,81 @@
+/* Main navbar styling */
+.navbar {
+    background-color: #3f51b5;
+    padding: 10px;
+  }
+  
+  /* Left side of the navbar (logo and title) */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    color: white;
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .navbar-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Center of the navbar (search box) */
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #5a63d6;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .search-icon {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+  }
+    
+  .search-input::placeholder {
+    color: #d3d3d3;
+  }
+  
+  /* Right side of the navbar (links and login button) */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    background-color: #f50057;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+  }
+  
+  .login-button:hover {
+    background-color: #d4004b;
+  }
+  
